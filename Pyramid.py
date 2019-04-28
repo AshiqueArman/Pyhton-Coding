@@ -1,4 +1,4 @@
-n = int(input("Rows : ")) #taking input
+n = int(input("Rows : "))           #taking input from user
 
 for x in range(0, n):               #number of rows. Means how tall the pyramid will be.
     for y in range(0, n - 1 - x):   #loop for giving required spaces for the formation of pyramid
